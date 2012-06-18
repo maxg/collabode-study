@@ -28,7 +28,7 @@ public class Presenter {
     }
 
     /** Return strings of the form "7 Cows" or "1 Duck" */
-    public String format(int count, String thing) {
+    public static String format(int count, String thing) {
         return count + " " + titleize(pluralize(thing));
     }
 }
