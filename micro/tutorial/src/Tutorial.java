@@ -29,8 +29,10 @@ public class Tutorial {
     /* Running Tests */
     
     // The projects you work on might have JUnit tests (or they might not)
-    // To run the tests, click the "Run Tests" button in the toolbar
+    // To run the tests, click the "Run Tests" button in the toolbar (this
+    //   will run all the tests in the project)
     // When the tests are done, results will appear in the sidebar
+    // Run this test, then remove the failing assertion and run it again
     
     @Test public void testTesting() {
         Assert.fail();
@@ -47,6 +49,7 @@ public class Tutorial {
     
     // When you finish a job, or have worked on it for about 15 minutes,
     //   you should click "work complete" in the top right corner
+    // Do not click the "log out" button -- just click "work complete"
     // When you're done with this tutorial, click "work complete" :)
     
 }
