@@ -1,0 +1,27 @@
+# Example inputs & outputs
+# Expected outputs are in comments marked with =>
+
+balance alice 5
+balance bob 0.50
+
+cash 1
+# => paid
+
+card alice
+# => balance alice 4.25
+# => paid
+
+card bob
+# => balance bob 0.50
+# => insufficient
+
+add
+card bob
+# => balance bob 0.50
+cash 1
+cash 1
+card bob
+# => balance bob 2.50
+card bob
+# => balance bob 1.75
+# => paid
